@@ -1,10 +1,10 @@
 
+import controlers.Auth;
 public class Main {
 
 	public static void main(String[] args) {
 		
-		AuthControler control = new AuthControler();
-		
+		Auth control = new Auth();
 		control.login();
 	}
 
